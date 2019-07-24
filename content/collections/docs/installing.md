@@ -187,6 +187,8 @@ If for whatever reason you can't or don't want to use URL rewriting, you can con
 
 Technically there is no "install" process for Statamic, but we have a little tool that will check your environment for all the necessary requirements, file permissions, locales, and even help you get your first User created. Head to `/installer.php` and let it take care of the rest for you.
 
+If the installer hangs at "Checking folder permissions," make sure you have .htaccess in your root (or remove "sample" from the sample .htaccess provided.
+
 **Once you're done, delete `installer.php`.**
 
 If you don't want to (or can't for some reason) use the GUI installer, here's what to do yourself:
